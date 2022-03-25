@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hubballi&family=Vidaloka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Vidaloka&display=swap");
 @-moz-keyframes flash {
   0% {
     opacity: 1;
@@ -18386,7 +18386,7 @@ input:focus {
 /* Typography */
 body {
   font-size: 1rem;
-  font-family: "Hubballi", cursive;
+  font-family: "Nunito", sans-serif;
   font-weight: initial;
   line-height: 1.5rem;
   -webkit-font-smoothing: antialiased;
@@ -18399,9 +18399,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   font-weight: normal;
+  line-height: 150%;
 }
 
 h1, .h1 {
@@ -18433,7 +18434,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
 }
 
 @media (max-width: 1024px) {
@@ -18524,7 +18525,7 @@ h6, .h6 {
 }
 
 .footer .footer-top .footer-title {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: 500;
   margin-bottom: 0.875rem;
 }
@@ -18563,7 +18564,7 @@ h6, .h6 {
   display: block;
   padding: 0;
   color: #0f1531;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #0f1531;
 }
 
@@ -18951,7 +18952,7 @@ section.photos {
 }
 
 section.photos .btn {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 section.photos .item img {
@@ -18970,7 +18971,7 @@ section.contactus .contato-image {
 
 section.contactus .social-icons ul li {
   list-style: none;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .btn-circle.btn-lg, .btn-group-lg > .btn-circle.btn {
@@ -19016,7 +19017,7 @@ section.contactus .social-icons ul li {
   border-radius: 10px;
   position: relative;
   box-shadow: 0 20px 70px -10px rgba(109, 121, 141, 0.15);
-  min-height: 725px;
+  min-height: 780px;
 }
 
 .atracoes .atracoes-item .atracoes-icons {
