@@ -1,0 +1,24 @@
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+@import 'variables';
+
+@import '../node_modules/compass-mixins/lib/compass';
+@import '../node_modules/compass-mixins/lib/animate';
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import 'reset';
+@import 'fonts';
+@import 'typography';
+@import 'footer';
+@import 'navbar';
+@import 'main';
+@import 'testimonial';
+@import 'pricing';
+
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/toggle-switch';
+@import 'components/owl-carousel';
+@import 'components/flipster';
