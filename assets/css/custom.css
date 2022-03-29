@@ -240,10 +240,6 @@ section {
   .contactus .social-icons ul li {
     font-size: 1rem;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .contactus .social-icons ul li a {
     margin-bottom: 1rem;
