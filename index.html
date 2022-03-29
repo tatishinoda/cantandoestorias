@@ -3,224 +3,219 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Cantando Estórias</title>
-    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css" />
-    <link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css" />
-    <link rel="stylesheet" href="vendors/owl.carousel/css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="vendors/aos/css/aos.css" />
-    <link rel="stylesheet" href="vendors/jquery-flipster/css/jquery.flipster.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/mdi/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="/assets/css/custom.css" rel="stylesheet" />
   </head>
-
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div id="mobile-menu-overlay"></div>
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <div class="row d-flex flex-row w-100 m-0 align-items-center">
-          <div class="col-md-3 col-sm-8">
-            <a class="navbar-brand" href="#">
-              <img src="images/logo2.svg" alt="Cantando Estórias" />
-            </a>
-          </div>
-          <div class="col-sm-4 d-lg-none d-flex justify-content-end">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                <i class="mdi mdi-menu"> </i>
-              </span>
-            </button>
-          </div>
-
-          <div class="col-md-9">
-            <div class="collapse navbar-collapse" id="navbarToggler">
-              <div class="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center">
-                <img src="images/logo_small.svg" class="logo-mobile-menu" alt="logo" />
-                <a href="javascript:;" class="close-menu">
-                  <i class="mdi mdi-close"></i>
-                </a>
-              </div>
-              <ul class="navbar-nav ml-auto align-items-center">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">Quem Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#photos">Galeria de Fotos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#atracoes">Atrações</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contato">Contato</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top" id="mainNav">
+      <div class="container px-4">
+        <a class="navbar-brand" href="#page-top">
+          <img src="assets/images/logo2.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="mdi mdi-menu"> </i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photos">Galeria de Fotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#atracoes">Atrações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-
-    <div class="page-body-wrapper">
-      <section id="home" class="home">
-        <div class="bg-blue">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="main-banner">
-                  <div class="row d-sm-flex justify-content-between align-items-center">
-                    <div class="col-sm-6" data-aos="zoom-in-up">
-                      <p class="mt-3 text">
-                        Cantando Estórias é uma dupla musical infantil formada por Dani Martins e Gil Steinmeyer que juntaram toda sua experiência artística e pedagógica para trazer música, história, diversão e aprendizado de forma lúdica para toda a família.
-                        <br /><br />
-                        Crianças e adultos ligam a imaginação e embarcam numa aventura onde tudo pode acontecer.
-                      </p>
-                    </div>
-                    <div class="mt-5 mt-lg-0 p-0 col-sm-6 hero-image">
-                      <img src="images/cantando14.jpeg" alt="Cantando Estórias" class="img-fluid" data-aos="zoom-in-up" />
-                    </div>
-                  </div>
+    <!-- Header-->
+    <header class="bg-blue" id="home">
+      <div class="container px-4 text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="main-banner">
+              <div class="row d-sm-flex justify-content-between align-items-center">
+                <div class="col-sm-12 col-lg-6" data-aos="zoom-in-up">
+                  <p class="mt-3 text">
+                    Cantando Estórias é uma dupla musical infantil formada por Dani Martins e Gil Steinmeyer que juntaram toda sua experiência artística e pedagógica para trazer música, história, diversão e aprendizado de forma lúdica para toda a família.
+                    <br /><br />
+                    Crianças e adultos ligam a imaginação e embarcam numa aventura onde tudo pode acontecer.
+                  </p>
+                </div>
+                <div class="mt-5 mt-lg-0 p-md-0 col-sm-12 col-lg-6 hero-image">
+                  <img src="/assets/images/cantando14.jpeg" alt="Cantando Estórias" class="img-fluid" data-aos="zoom-in-up" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <div class="waves">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <linearGradient id="wavegradient1" x2="1" y2="1">
-            <stop offset="0%" style="stop-color: #b721ff; stop-opacity: 0.5" />
-            <stop offset="100%" style="stop-color: #b721ff; stop-opacity: 0.05" />
-          </linearGradient>
-          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="icon"></path>
-          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="icon"></path>
-          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="icon"></path>
-        </svg>
       </div>
-      <section class="about-us bg-white" id="about">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-sm-5 text-right" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-              <img src="images/cantando16.jpeg" alt="idea" class="img-fluid" />
-            </div>
-            <div class="col-sm-7" data-aos="fade-up">
-              <h3 class="font-weight-medium text-dark mb-4">Quem Somos</h3>
-
-              <p class="font-weight-medium text-dark mb-4 mt-4">
-                Dani Martins é atriz, cantora, compositora, dubladora e começou sua carreira em 1996. Gravou um cd infantil e apresentou um programa de televisão chamado Planeta Azul Por Um Mundo Melhor, fez mais 1200 shows como cantora e apresentadora, se tornou dubladora em 2019 e agora embarcou nesse sonho lindo que é o Cantando Estórias.
-                <br /><br />
-                Gil Steinmeyer é cantor, compositor, palhaço, mágico e iniciou sua carreira artística em 1986, quando fundou a Tutti Hortelã Frutti eventos infantis, onde atua até hoje como o palhaço Hortelã e como mágico Jones. Foi professor de pré-escola de 1983 à 1988, participou de várias bandas musicais e hoje mergulha no universo da música infantil que é o Cantando Estórias.
-                <br /><br />
-                Juntos, eles uniram suas experiências artísticas e pedagógicas para trazer música, história, diversão e aprendizado de forma lúdica para toda a família. Ligue a sua imaginação e embarque com a gente nesse mundo de fantasia e emoção.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="photos bg-white" id="photos">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-sm-12">
-              <div class="d-sm-flex justify-content-between align-items-center mb-2">
-                <h3 class="font-weight-medium text-dark">Galeria de Fotos</h3>
-                <div>
-                  <a href="https://www.instagram.com/cantandoestorias" class="btn btn-outline-primary"> <i class="mdi mdi-instagram"></i> @cantandoestorias</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="mb-5" data-aos="fade-up">
-          <div class="owl-carousel-projects owl-carousel owl-theme">
-            <div class="item">
-              <img src="images/cantando7.jpeg" alt="slider" />
-            </div>
-            <div class="item">
-              <img src="images/cantando11.jpeg" alt="slider" />
-            </div>
-            <div class="item">
-              <img src="images/cantando17.jpeg" alt="slider" />
-            </div>
-            <div class="item">
-              <img src="images/cantando8.jpeg" alt="slider" />
-            </div>
-            <div class="item">
-              <img src="images/cantando6.jpeg" alt="slider" />
-            </div>
-            <div class="item">
-              <img src="images/cantando3.jpeg" alt="slider" />
-            </div>
-            <div class="item">
-              <img src="images/cantando12.jpeg" alt="slider" />
-            </div>
-            <div class="item">
-              <img src="images/cantando9.jpeg" alt="slider" />
-            </div>
-            <div class="item" id="myVideo">
-              <video controls>
-                <source src="images/video.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="atracoes" id="atracoes">
-        <div class="container">
-          <div class="row mt-md-0 mt-lg-4">
-            <div class="col-sm-12" data-aos="fade-up">
-              <h3 class="font-weight-medium text-dark">Nossas Atrações</h3>
-            </div>
-            <div class="row mt-md-0 mt-lg-4 mx-0" data-aos="fade-up">
-              <div class="col-sm-12 col-md-6 px-md-2">
-                <div class="atracoes-item">
-                  <img src="images/atracoes01.jpeg" alt="icon" class="atracoes-icons" />
-                  <h5 class="atracoes-author">Show</h5>
-                  <p>Convidamos a plateia à ligar a imaginação e embarcar numa aventura cheia de música e emoção. Hora estamos no fundo do mar, hora tocando as nuvens do céu, de repente encontramos amigos da lagoa, em seguida brincamos numa floresta... Nosso show é imaginativo e bastante interativo, o público faz parte de cada pedacinho da história.</p>
-                  <p>Nosso repertório conta com músicas conhecidas como Roda-Roda, O ônibus, Borboletinha, Pintinho Amarelinho, O sapo... E também com nossas músicas autorais como Brincar de adivinhar, Gira o Pião, Fazendo meu corpinho balançar.... Fazendo com que o público cante, dance e se divita bastante.</p>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-6 px-md-2">
-                <div class="atracoes-item">
-                  <img src="images/atracoes02.jpeg" alt="icon" class="atracoes-icons" />
-                  <h5 class="atracoes-author">Recreação Cantada</h5>
-                  <p>Recreação com roda de violão, histórias e brincadeiras lúdicas.</p>
-                  <p>As crianças ligam a imaginação e embarcam numa grande aventura onde um bambolê pode virar um túnel cheio de ursos, uma corda pode virar uma grande ponte, bacias podem virar volantes de carros e papel pode virar um barco gigante para chegar numa ilha onde faremos uma grande caça ao tesouro. Tudo isso com música ao vivo, dança e muita diversão.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="contactus" id="contato">
-        <div class="container">
-          <div class="row mb-5 pb-5">
-            <div class="col-sm-5" data-aos="fade-up" data-aos-offset="-500">
-              <img src="images/cantando5.jpeg" alt="contact" class="img-fluid contato-image" />
-            </div>
-            <div class="col-sm-7 content" data-aos="fade-up" data-aos-offset="-500">
-              <h3 class="font-weight-medium text-dark mt-5 mt-lg-0">Fale Conosco</h3>
-              <div class="social-icons">
-                <div class="d-flex flex-column">
-                  <ul>
-                    <li class="text-dark mt-5 mb-5">
-                      <a class="btn btn-outline-primary btn-circle btn-lg" href="mailto:contatocantandoestorias@gmail.com"><i class="mdi mdi-email"></i></a>
-                      <span>contatocantandoestorias@gmail.com</span>
-                    </li>
-
-                    <li class="text-dark mb-5">
-                      <a class="btn btn-outline-primary btn-circle btn-lg" href="https://api.whatsapp.com/send?phone=5511999160829" target="_blank"><i class="mdi mdi-whatsapp"></i></a>
-                      <span>(11) 99916-0829</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    </header>
+    <div class="waves">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <linearGradient id="wavegradient1" x2="1" y2="1">
+          <stop offset="0%" style="stop-color: #b721ff; stop-opacity: 0.5" />
+          <stop offset="100%" style="stop-color: #b721ff; stop-opacity: 0.05" />
+        </linearGradient>
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="icon"></path>
+        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="icon"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="icon"></path>
+      </svg>
     </div>
+    <!-- About section-->
+    <section id="about">
+      <div class="container px-4">
+        <div class="row gx-4 justify-content-center align-items-center">
+          <div class="col-sm-12 col-lg-5 text-right" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <img src="/assets/images/cantando16.jpeg" alt="idea" class="rounded-image img-fluid" />
+          </div>
+          <div class="col-sm-12 col-lg-7" data-aos="fade-up">
+            <h2 class="font-weight-medium text-dark mb-4 pt-4">Quem Somos</h2>
+
+            <p class="font-weight-medium text-dark mb-4 mt-4">
+              Dani Martins é atriz, cantora, compositora, dubladora e começou sua carreira em 1996. Gravou um cd infantil e apresentou um programa de televisão chamado Planeta Azul Por Um Mundo Melhor, fez mais 1200 shows como cantora e apresentadora, se tornou dubladora em 2019 e agora embarcou nesse sonho lindo que é o Cantando Estórias.
+              <br /><br />
+              Gil Steinmeyer é cantor, compositor, palhaço, mágico e iniciou sua carreira artística em 1986, quando fundou a Tutti Hortelã Frutti eventos infantis, onde atua até hoje como o palhaço Hortelã e como mágico Jones. Foi professor de pré-escola de 1983 à 1988, participou de várias bandas musicais e hoje mergulha no universo da música infantil que é o Cantando Estórias.
+              <br /><br />
+              Juntos, eles uniram suas experiências artísticas e pedagógicas para trazer música, história, diversão e aprendizado de forma lúdica para toda a família. Ligue a sua imaginação e embarque com a gente nesse mundo de fantasia e emoção.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section-->
+    <section class="photos" id="photos">
+      <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+          <div class="col-12">
+            <div class="d-sm-flex justify-content-between align-items-center mb-2 title">
+              <h2 class="font-weight-medium text-dark pt-4 pb-4">Galeria de Fotos</h2>
+              <div>
+                <a href="https://www.instagram.com/cantandoestorias" class="btn btn-outline-primary rounded-pill"> <i class="mdi mdi-instagram"></i> @cantandoestorias</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-5" data-aos="fade-up">
+        <div class="owl-carousel-projects owl-carousel owl-theme">
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando7.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando11.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando_a2.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando17.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando_a3.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando8.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando_a4.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando6.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando3.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando12.jpeg" alt="slider" />
+          </div>
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando_a1.jpeg" alt="slider" />
+          </div>
+
+          <div class="item rounded-image">
+            <img src="/assets/images/cantando9.jpeg" alt="slider" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Atraction-->
+    <section class="atracoes" id="atracoes">
+      <div class="container px-4">
+        <div class="row gx-4 justify-content-center">
+          <div class="col-12">
+            <h2>Nossas Atrações</h2>
+          </div>
+          <div class="row mt-md-0 mt-lg-4 mx-0" data-aos="fade-up">
+            <div class="col-sm-12 col-lg-6 px-md-2">
+              <div class="atracoes-item">
+                <img src="/assets/images/atracoes01.jpeg" alt="icon" class="atracoes-icons" />
+                <h4 class="atracoes-author">Show</h4>
+                <p>Convidamos a plateia à ligar a imaginação e embarcar numa aventura cheia de música e emoção. Hora estamos no fundo do mar, hora tocando as nuvens do céu, de repente encontramos amigos da lagoa, em seguida brincamos numa floresta... Nosso show é imaginativo e bastante interativo, o público faz parte de cada pedacinho da história.</p>
+                <p>Nosso repertório conta com músicas conhecidas como Roda-Roda, O ônibus, Borboletinha, Pintinho Amarelinho, O sapo... E também com nossas músicas autorais como Brincar de adivinhar, Gira o Pião, Fazendo meu corpinho balançar.... Fazendo com que o público cante, dance e se divita bastante.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 px-md-2">
+              <div class="atracoes-item">
+                <img src="/assets/images/atracoes02.jpeg" alt="icon" class="atracoes-icons" />
+                <h4 class="atracoes-author">Recreação Cantada</h4>
+                <p>Recreação com roda de violão, histórias e brincadeiras lúdicas.</p>
+                <p>As crianças ligam a imaginação e embarcam numa grande aventura onde um bambolê pode virar um túnel cheio de ursos, uma corda pode virar uma grande ponte, bacias podem virar volantes de carros e papel pode virar um barco gigante para chegar numa ilha onde faremos uma grande caça ao tesouro. Tudo isso com música ao vivo, dança e muita diversão.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section-->
+    <section class="contactus" id="contato">
+      <div class="container px-4">
+        <div class="row mb-5">
+          <div class="col-sm-12 col-lg-5 text-center" data-aos="fade-up" data-aos-offset="-500">
+            <img src="/assets/images/cantando5.jpeg" alt="contact" class="img-fluid contato-image" />
+          </div>
+          <div class="col-sm-12 col-lg-7 content" data-aos="fade-up" data-aos-offset="-500">
+            <h2 class="font-weight-medium text-dark mt-5 mt-lg-0">Fale Conosco</h2>
+            <div class="social-icons">
+              <div class="d-flex flex-column">
+                <ul>
+                  <li class="text-dark mt-5 mb-5">
+                    <div class="btn btn-outline-primary btn-circle btn-lg mr-2"><i class="mdi mdi-email"></i></div>
+                    <a href="mailto:contatocantandoestorias@gmail.com">contatocantandoestorias@gmail.com</a>
+                  </li>
+
+                  <li class="text-dark mb-5 d-flex align-items-center">
+                    <div class="btn btn-outline-primary btn-circle btn-lg mr-2"><i class="mdi mdi-whatsapp"></i></div>
+                    <div>
+                      <a href="https://api.whatsapp.com/send?phone=5511999160829" target="_blank" class="d-block">(11) 99916-0829</a>
+
+                      <a href="https://api.whatsapp.com/send?phone=5511996854539" target="_blank" class="d-block">(11) 99685-4539</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
     <div class="waves end">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <linearGradient id="wavegradient2" x2="1" y2="1">
@@ -232,41 +227,43 @@
         <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="icon"></path>
       </svg>
     </div>
-    <footer class="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <h6 class="footer-title">Cantando Estórias</h6>
-              <address>
-                <p>São Paulo/SP - Brasil</p>
+    <footer class="py-5 footer">
+      <div class="container px-4">
+        <div class="row">
+          <div class="col-sm-6">
+            <h4 class="footer-title">Cantando Estórias</h4>
+            <address>
+              <p>São Paulo/SP - Brasil</p>
 
-                <div class="d-flex flex-column">
-                  <p class="mr-4 mb-0">(11) 99916-0829</p>
-                  <br />
-                  <a href="mailto:contatocantandoestorias@gmail.com" class="footer-link d-block">contatocantandoestorias@gmail.com</a>
-                </div>
-              </address>
-            </div>
-            <div class="col-sm-6">
-              <div class="row">
-                <div class="col-sm-4">
-                  <h6 class="footer-title">Acesso Rápido</h6>
-                  <ul class="list-footer">
-                    <li><a href="#home" class="footer-link">Home</a></li>
-                    <li><a href="#about" class="footer-link">Quem Somos</a></li>
-                    <li><a href="#photos" class="footer-link">Galeria de Fotos</a></li>
-                    <li><a href="#atracoes" class="footer-link">Atrações</a></li>
-                    <li><a href="#contato" class="footer-link">Contato</a></li>
-                  </ul>
-                </div>
-                <div class="col-sm-4">
-                  <div class="social-icons">
-                    <h6 class="footer-title">Redes Sociais</h6>
-                    <div class="d-flex">
-                      <a href="https://www.instagram.com/cantandoestorias"><i class="mdi mdi-instagram"></i></a>
-                      <a href="http://youtube.com/cantandoestorias"><i class="mdi mdi-youtube"></i></a>
-                    </div>
+              <div class="d-flex flex-column">
+                <p class="mr-4 mb-0">
+                  <a href="https://api.whatsapp.com/send?phone=5511999160829" target="_blank" class="footer-link d-block">(11) 99916-0829</a>
+
+                  <a href="https://api.whatsapp.com/send?phone=5511996854539" target="_blank" class="footer-link d-block">(11) 99685-4539</a>
+                </p>
+
+                <a href="mailto:contatocantandoestorias@gmail.com" class="footer-link d-block">contatocantandoestorias@gmail.com</a>
+              </div>
+            </address>
+          </div>
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <h4 class="footer-title">Acesso Rápido</h4>
+                <ul class="list-footer">
+                  <li><a href="#home" class="footer-link">Home</a></li>
+                  <li><a href="#about" class="footer-link">Quem Somos</a></li>
+                  <li><a href="#photos" class="footer-link">Galeria de Fotos</a></li>
+                  <li><a href="#atracoes" class="footer-link">Atrações</a></li>
+                  <li><a href="#contato" class="footer-link">Contato</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <div class="social-icons">
+                  <h4 class="footer-title">Redes Sociais</h4>
+                  <div class="d-flex">
+                    <a href="https://www.instagram.com/cantandoestorias"><i class="mdi mdi-instagram"></i></a>
+                    <a href="http://youtube.com/cantandoestorias"><i class="mdi mdi-youtube"></i></a>
                   </div>
                 </div>
               </div>
@@ -275,10 +272,13 @@
         </div>
       </div>
     </footer>
-    <script src="vendors/base/vendor.bundle.base.js"></script>
-    <script src="vendors/owl.carousel/js/owl.carousel.js"></script>
-    <script src="vendors/aos/js/aos.js"></script>
-    <script src="vendors/jquery-flipster/js/jquery.flipster.min.js"></script>
-    <script src="js/template.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/101dd922fa.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <!-- Core theme JS-->
+    <script src="/assets/js/scripts.js"></script>
   </body>
 </html>
