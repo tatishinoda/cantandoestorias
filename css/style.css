@@ -9,7 +9,7 @@
   --custom-btn-bg-color: #F2CC8F;
   --custom-btn-bg-hover-color: #E07A5F;
   --dark-color: #000000;
-  --p-color: #717275;
+  --p-color: #181818;
   --link-hover-color: #F2CC8F;
 
   --body-font-family: 'DM Sans', sans-serif;
@@ -660,15 +660,15 @@ strong {
 }
 
 .hero-section {
-  background-image: url('../images/anna-rosar-ZxFyVBHMK-c-unsplash.jpg');
+  background-image: url('../images/capa.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: 100vh;
-  min-height: 670px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 60vh;
+  min-height: 500px;
 }
 
 .hero-50 {
@@ -711,7 +711,7 @@ strong {
   BACKGROUND IMAGE SECTION
 -----------------------------------------*/
 .section-bg-image {
-  background-color: #ec7fac;
+  background-color: #d05557;
   position: relative;
   margin-bottom: -70px;
 }
@@ -1312,4 +1312,12 @@ strong {
     font-size: 12px;
     padding: 4px 12px;
   }
+}
+
+
+/* CUSTOM */
+h2.title{
+  font-family: 'Titan One', cursive;
+  font-size: 3rem;
+  font-weight: 300;
 }
