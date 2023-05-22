@@ -870,7 +870,7 @@ strong {
   flex: 1 1 25%;
 }
 .streaming a img {
-  max-width: 150px;
+  max-width: 120px;
 }
 
 .custom-block-image-wrap {
