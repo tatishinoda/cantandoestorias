@@ -578,15 +578,18 @@ strong {
   left: 2px;
   border: 0;
 }
+
 #navbarNav {
   margin-top: 5rem;
 }
+
 @media screen and (min-width: 992px) {
   .navbar .dropdown:hover .dropdown-menu {
     opacity: 1;
     margin-top: 0;
     pointer-events: auto;
   }
+
   #navbarNav {
     margin-top: 0rem;
   }
@@ -663,21 +666,22 @@ strong {
 }
 
 .hero-section {
-  background-image: url('../images/capa2.jpg');
+  background-image: url('../images/capa4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -40px;
+  background-position: center top;
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
   height: 60vh;
   min-height: 500px;
 }
+
 @media (max-width: 768px) {
   .hero-section {
     height: 40vh;
     min-height: 300px;
-}
+  }
 }
 
 .hero-50 {
@@ -795,6 +799,13 @@ strong {
   height: 400px;
 }
 
+@media screen and (max-width: 768px) {
+  .member-block-image-wrap {
+    height: auto;
+  }
+}
+
+
 .member-block-image-wrap:hover .member-block-image {
   transform: scale(1.2);
 }
@@ -818,7 +829,8 @@ strong {
   justify-content: center;
   align-items: center;
 }
-.member-block-image-wrap .social-icon p{
+
+.member-block-image-wrap .social-icon p {
   font-size: 15px;
 }
 
@@ -859,17 +871,19 @@ strong {
   padding: 20px 30px;
 }
 
-.streaming{
+.streaming {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
 .streaming a {
   display: flex;
   flex: 1 1 25%;
 }
+
 .streaming a img {
   max-width: 120px;
 }
@@ -1091,6 +1105,12 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
+@media screen and (max-width: 768px) {
+  #section_5>div>div.row.mt-4>div:nth-child(2) {
+    margin-top: 20px;
+  }
+
+}
 
 /*---------------------------------------
   SITE FOOTER
@@ -1348,6 +1368,7 @@ h2.title {
   font-size: 3rem;
   font-weight: 300;
 }
+
 @media (max-width: 991px) {
   h2.title {
     font-size: 2rem;
@@ -1795,27 +1816,36 @@ h2.title {
   box-shadow: -4px 0 #850101;
 }
 
-.tv{
+.tv {
   display: block;
 }
-.youtube-video{
+
+.youtube-video {
   display: none;
 }
-@media (max-width: 991px)  {
-  .tv{
+
+@media (max-width: 991px) {
+  .tv {
     display: none;
   }
-  .youtube-video{
+
+  .youtube-video {
     display: block;
   }
 
 }
 
-.contact-image{
+.contact-image {
 
   max-height: 500px;
   object-fit: contain;
   border-radius: 8px;
   margin: 0 auto;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .streaming a {
+    justify-content: center;
+  }
 }

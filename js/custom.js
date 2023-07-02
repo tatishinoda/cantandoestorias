@@ -36,7 +36,7 @@
     var phone = document.getElementById("phone").value;
     var message = document.getElementById("message").value;
 
-    var url = "https://wa.me/5511981916080?text="
+    var url = "https://wa.me/5511996854539?text="
     +"*Name :* "+name+"%0a"
     +"*Email :* "+email+"%0a"
     +"*Phone :* "+phone+"%0a"
