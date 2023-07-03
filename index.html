@@ -1,72 +1,543 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cantando Estórias - Novo site em breve!</title>
-    <style>
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-        }
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Cantando Estórias">
+	<meta name="description" content="Crianças e adultos ligam a imaginação e embarcam numa aventura onde tudo pode acontecer.">
+	<meta name="keywords" content="recreação, show infantil, música infantil, histórias infantis">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta property="og:title" content="Cantando Estórias">
+	<meta property="og:url" content=https://cantandoestorias.com.br/>
+	<meta property="og:description" content="Crianças e adultos ligam a imaginação e embarcam numa aventura onde tudo pode acontecer.">
+	<meta property="og:type" content=website>
+	<meta property="og:image" content=https://d33wubrfki0l68.cloudfront.net/images/4b6a36b10ade483cec431441662d3a430f236542/capa2.jpg>
 
-        html {
-            display: table;
-            font-family: Lato, "Segoe UI", Avenir, Ubuntu, Tahoma, Verdana, Helvetica, sans-serif;
-        }
+	<title>Cantando Estórias</title>
 
-        body {
-            display: table-cell;
-            vertical-align: middle;
-            text-align: center;
-        }
+	<!-- CSS FILES -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+	<link href="css/style.css" rel="stylesheet">
 
-        h1 {
-            font-size: 4em;
-            font-weight: normal;
-            text-transform: lowercase;
-        }
-
-        svg {
-            width: 250px;
-            height: 250px;
-        }
-    </style>
 </head>
+
 <body>
-    <!-- Customize Icon Color -->
-    <!-- https://www.flaticon.com/free-icon/fast-time_2972562?term=clock&page=1&position=27# -->
-    <?xml version="1.0"?>
-    <svg xmlns="http://www.w3.org/2000/svg" id="coming_soon" enable-background="new 0 0 512 512" height="512px" viewBox="0 0 512 512" width="512px">
-        <g>
-            <g>
-                <circle cx="319.528" cy="256" fill="#95d6a4" r="184.972" data-original="#95D6A4" class="active-path" style="fill:#E33B3B" data-old_color="#95d6a4" />
-                <path d="m319.528 71.029c-4.682 0-9.322.178-13.917.52 95.656 7.115 171.055 86.976 171.055 184.451s-75.399 177.336-171.055 184.452c4.595.342 9.235.52 13.917.52 102.157-.001 184.972-82.815 184.972-184.972s-82.815-184.971-184.972-184.971z" fill="#78c2a4" data-original="#78C2A4" class="" style="fill:#FB5252" data-old_color="#78c2a4" />
-                <circle cx="319.528" cy="256" fill="#f4fbff" r="142.033" data-original="#F4FBFF" class="" style="fill:#F4FBFF" />
-                <path d="m319.528 113.967c-4.321 0-8.594.204-12.817.582 72.435 6.48 129.215 67.33 129.215 141.451s-56.78 134.97-129.215 141.451c4.223.377 8.496.582 12.817.582 78.443 0 142.033-63.59 142.033-142.032 0-78.444-63.59-142.034-142.033-142.034z" fill="#daf1f4" data-original="#DAF1F4" class="" />
-                <g>
-                    <path d="m38.872 149.21h79.098c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-79.098c-4.142 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m115.258 185.317h-31.246c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h31.246c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m7.5 237.327h76.512c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-76.512c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m125.47 370.289c0-4.143-3.358-7.5-7.5-7.5h-79.098c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h79.098c4.142 0 7.5-3.357 7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m115.258 311.683h-31.246c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h31.246c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m91.512 282.173c0-4.143-3.358-7.5-7.5-7.5h-76.512c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h76.512c4.142 0 7.5-3.357 7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m319.529 165.83c4.143 0 7.5-3.357 7.5-7.5v-11.448c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v11.448c0 4.143 3.357 7.5 7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m401.99 173.538c-2.93-2.928-7.678-2.928-10.607 0l-8.095 8.095c-2.929 2.93-2.929 7.678 0 10.607 2.931 2.929 7.678 2.928 10.607 0l8.095-8.095c2.928-2.929 2.928-7.677 0-10.607z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m417.199 248.5c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h11.447c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m393.895 319.759c-2.93-2.928-7.678-2.928-10.607 0-2.929 2.93-2.929 7.678 0 10.607l8.095 8.095c2.931 2.929 7.678 2.928 10.607 0 2.929-2.93 2.929-7.678 0-10.607z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m312.029 353.67v11.447c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-11.447c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m245.162 319.759-8.095 8.095c-2.929 2.93-2.929 7.678 0 10.607 2.93 2.929 7.678 2.928 10.606 0l8.095-8.095c2.929-2.93 2.929-7.678 0-10.607-2.928-2.928-7.677-2.928-10.606 0z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m210.411 248.5c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h11.448c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m255.769 181.633-8.095-8.095c-2.929-2.928-7.678-2.928-10.606 0-2.929 2.93-2.929 7.678 0 10.607l8.095 8.095c2.93 2.929 7.678 2.928 10.606 0 2.929-2.929 2.929-7.677 0-10.607z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m359.859 256c0-4.143-3.357-7.5-7.5-7.5h-25.33v-55.684c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v63.184c0 4.143 3.357 7.5 7.5 7.5h32.83c4.142 0 7.5-3.357 7.5-7.5z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m461.741 254.762c4.135-.251 7.283-3.806 7.032-7.94-4.771-78.703-70.327-140.354-149.245-140.354-82.452 0-149.532 67.08-149.532 149.533 0 82.452 67.08 149.532 149.532 149.532 73.869 0 136.9-54.122 147.865-127.157.615-4.096-2.207-7.915-6.304-8.53-4.086-.613-7.915 2.206-8.53 6.304-9.85 65.614-66.506 114.384-133.031 114.384-74.181 0-134.532-60.351-134.532-134.532s60.351-134.533 134.532-134.533c71.001 0 129.98 55.461 134.272 126.263.25 4.132 3.802 7.27 7.941 7.03z" data-original="#000000" class="" style="fill:#000000" />
-                    <path d="m319.528 63.529c-26.381 0-52.228 5.473-76.018 15.708h-132.329c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h104.113c-14.077 9.06-27.036 19.988-38.462 32.604-2.78 3.069-2.546 7.812.524 10.593 3.071 2.781 7.812 2.546 10.594-.524 33.602-37.102 81.561-58.381 131.578-58.381 97.858 0 177.472 79.613 177.472 177.471 0 97.857-79.613 177.471-177.472 177.471-97.858 0-177.471-79.613-177.471-177.471 0-34.268 9.789-67.528 28.307-96.186 2.248-3.479 1.25-8.121-2.229-10.369-3.479-2.247-8.121-1.251-10.37 2.229-20.09 31.088-30.708 67.163-30.708 104.326 0 67.766 35.206 127.458 88.285 161.763h-104.16c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h132.225c23.36 10.099 49.097 15.708 76.122 15.708 106.128 0 192.471-86.342 192.471-192.471s-86.343-192.471-192.472-192.471z" data-original="#000000" class="" style="fill:#000000" />
-                </g>
-            </g>
-        </g>
-    </svg>
-    <h1>Nosso novo site está chegando!!</h1>
+	<main>
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+				<a class="navbar-brand d-flex align-items-center" href="index.html">
+					<img src="images/logo-completo.png" class="navbar-brand-image img-fluid" alt="Cantando Estórias">
+					<span class="navbar-brand-text">
+						Cantando Estórias
+					</span>
+				</a>
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-lg-auto">
+						<li class="nav-item">
+							<a class="nav-link click-scroll" href="#section_1">Home</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link click-scroll" href="#section_2">Sobre Nós</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link click-scroll" href="#section_3">Nosso Show</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link click-scroll" href="#section_4">Música</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link click-scroll" href="#section_5">Contato</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+		<div class="spacer"></div>
+		<section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+			<div class="container">
+				<div class="row">
+
+
+				</div>
+			</div>
+		</section>
+
+		<div class="svg-divider"><img src="/images/small-wave_1.svg" alt=""></div>
+		<section class="about-section section-padding" id="section_2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-12 col-12 text-center">
+						<h2 class="mb-lg-5 mb-4 title">Cantando Estórias</h2>
+					</div>
+
+					<div class="col-lg-5 col-12 me-auto mb-4 mb-lg-0 d-flex flex-column justify-content-center">
+
+						<p>Uma dupla musical infantil formada por Dani Martins e Gil Steinmeyer que juntaram toda sua
+							experiência artística e pedagógica para trazer música, história, diversão e aprendizado de forma
+							lúdica para toda a família.</p>
+						<p>Crianças e adultos ligam a imaginação e embarcam numa aventura onde tudo pode acontecer.</p>
+
+
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-0">
+						<div class="member-block">
+							<div class="member-block-image-wrap">
+								<img src="images/members/dani.jpg" class="member-block-image img-fluid" alt="">
+								<div class="social-icon">
+									<p>É atriz, cantora, compositora, dubladora e começou sua carreira em 1996. Gravou um cd
+										infantil e apresentou um programa de televisão chamado Planeta Azul Por Um Mundo Melhor,
+										fez mais 1200 shows como cantora e apresentadora. Agora, embarcou nesse sonho lindo que é
+										o Cantando Estórias.</p>
+								</div>
+							</div>
+
+							<div class="member-block-info d-flex align-items-center">
+								<h4>Dani Martins</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="member-block">
+							<div class="member-block-image-wrap">
+								<img src="images/members/gil.jpg" class="member-block-image img-fluid" alt="">
+								<div class="social-icon">
+									<p>É cantor, compositor, palhaço, mágico e iniciou sua carreira artística em 1986, quando
+										fundou a Tutti Hortelã Frutti eventos infantis, onde atua até hoje como o palhaço Hortelã
+										e como mágico Jones. Foi professor de pré-escola de 1983 à 1988, participou de várias
+										bandas musicais e hoje mergulha no universo da música infantil que é o Cantando Estórias.
+									</p>
+								</div>
+							</div>
+
+							<div class="member-block-info d-flex align-items-center">
+								<h4>Gil Steinmeyer</h4>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="section-bg-image">
+			<svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z"
+					stroke-width="0"></path>
+			</svg>
+
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-12 col-12">
+						<div class="section-bg-image-block">
+							<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core
+								defer></script>
+							<div class="elfsight-app-6d364b91-0a8c-4c48-b2c1-dd76657f193a"></div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z"
+					stroke-width="0"></path>
+				<path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z"
+					stroke-width="0"></path>
+			</svg>
+		</section>
+
+
+		<section class="membership-section section-padding" id="section_3">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-12 col-12 text-center mx-auto mb-lg-5 mb-4">
+						<h2 class="title"><span>Nosso</span> Show</h2>
+					</div>
+
+					<div class="col-lg-6 col-12 mb-3 mb-lg-0 align-self-center">
+						<div class="slider-fade">
+							<img src="/images/gallery/cantando10.jpeg" alt="Slide 1">
+							<img src="/images/gallery/cantando9.jpeg" alt="Slide 1">
+							<img src="/images/gallery/cantando12.jpeg" alt="Slide 1">
+							<img src="/images/gallery/cantando11.jpeg" alt="Slide 1">
+							<img src="/images/gallery/cantando6.jpeg" alt="Slide 1">
+						</div>
+
+
+
+					</div>
+
+					<div class="col-lg-5 col-12 mx-auto">
+
+						<p>Show com banda ao vivo, onde cantamos e contamos uma história.</p>
+						<p>Convidamos a plateia à ligar a imaginação e embarcar numa aventura cheia de música e emoção. </p>
+						<p>Hora estamos no fundo do mar, hora tocando as nuvens do céu, de repente encontramos amigos da
+							lagoa, em seguida brincamos numa floresta...</p>
+						<p>Nosso show é imaginativo e bastante interativo, o público faz parte de cada pedacinho da história.
+						</p>
+						<p>Nosso repertório conta com músicas conhecidas e também autorais. Fazendo com que o público cante,
+							dance e se divirta bastante.</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<section class="events-section section-bg section-padding" id="section_4">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-12 col-12">
+						<h2 class="mb-lg-3 title">Lançamento</h2>
+					</div>
+
+					<div class="row custom-block mb-3">
+						<div class="col-lg-6 col-md-6 col-12">
+							<div class="tv-container d-flex justify-content-center align-items-center">
+								<div class="tv">
+									<div class="antenna-container">
+										<div class="antenna"></div>
+									</div>
+									<div class="television-container">
+										<div class="television">
+											<div class="television-inner">
+												<div class="television-screen-container">
+													<div class="television-crt">
+
+														<div class="television-screen">
+
+															<iframe width="250" height="200"
+																src="https://www.youtube.com/embed/EEnr7fyymF4"
+																title="YouTube video player" frameborder="0"
+																allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+																allowfullscreen></iframe>
+
+
+														</div>
+
+													</div>
+												</div>
+												<div class="television-lateral">
+													<div class="dial-container">
+														<div class="dial channel-button" style="--value: 0deg;">
+															<div class="data-container">
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+															</div>
+															<div class="dial-core"></div>
+															<div class="selector"></div>
+														</div>
+														<div class="dial volume-button" style="--value: 0deg;">
+															<div class="data-container">
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+																<div class="data">#</div>
+															</div>
+															<div class="dial-core"></div>
+															<div class="selector"></div>
+														</div>
+													</div>
+													<div class="speaker-container">
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+														<div></div>
+													</div>
+												</div>
+												<div class="buttons">
+													<div class="button-container">
+														<div class="button"></div>
+													</div>
+													<div class="button-container">
+														<div class="button"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="television-base">
+											<div class="slots">
+												<div class="slot"></div>
+												<div class="slot"></div>
+												<div class="slot"></div>
+											</div>
+											<div class="slots">
+												<div class="slot"></div>
+												<div class="slot"></div>
+												<div class="slot"></div>
+												<div class="slot"></div>
+												<div class="slot"></div>
+												<div class="slot"></div>
+											</div>
+										</div>
+										<div class="foot-container">
+											<div class="foot left"></div>
+											<div class="foot right"></div>
+										</div>
+									</div>
+								</div>
+								<div class="youtube-video embed-responsive embed-responsive-16by9">
+									<iframe src="https://www.youtube.com/embed/EEnr7fyymF4" title="YouTube video player"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+										allowfullscreen></iframe>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center flex-column">
+							<h3 class="events-title mb-3 mt-3 text-center">Conheça o Cantando Estórias</h3>
+
+							<p class="mb-5 text-center">Estamos presentes em diversas plataformas:</p>
+							<div class="row mb-1 mt-1 streaming">
+								<a href="https://music.amazon.com/artists/B0BZ94MNG3/cantando-est%C3%B3rias" target="_blank"
+									rel="noopener noreferrer">
+									<img src="/images/music-service_amazon.png" alt="">
+								</a>
+
+								<a href="https://music.apple.com/br/album/coelhinho-da-p%C3%A1scoa-single/1678604692?at=1001lwQy&ct=FFM_ec64152a870bb6518c2b6702a7c08908&ls=1"
+									target="_blank" rel="noopener noreferrer">
+									<img src="/images/music-service_applemusic_listen.png" alt="">
+								</a>
+
+								<a href="https://www.deezer.com/br/artist/206685617" target="_blank" rel="noopener noreferrer">
+									<img src="/images/music-service_deezer.png" alt="">
+								</a>
+
+								<a href="https://open.spotify.com/artist/6mYMK3tEPyA4P6jYD6OseU" target="_blank"
+									rel="noopener noreferrer">
+									<img src="/images/music-service_spotify.png" alt="">
+								</a>
+
+								<a href="https://tidal.com/browse/artist/38248282" target="_blank" rel="noopener noreferrer">
+									<img src="/images/music-service_tidal.png" alt="">
+								</a>
+
+								<a href="https://www.youtube.com/@cantandoestorias/" target="_blank" rel="noopener noreferrer">
+									<img src="/images/music-service_youtube.png" alt="">
+								</a>
+
+								<a href="https://music.youtube.com/channel/UC5zOL28WlKjXZQKXxRta7fA" target="_blank"
+									rel="noopener noreferrer">
+									<img src="/images/music-service_youtubemusic.png" alt="">
+								</a>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="contact-section section-padding" id="section_5">
+			<div class="container">
+				<div class="row mt-4">
+
+					<div class="col-lg-6 col-12">
+						<form action="#" method="post" class="custom-form membership-form shadow-lg" role="form">
+							<h4 class="text-white mb-4">Entre em contato</h4>
+
+							<div class="form-floating">
+								<input type="text" name="name" id="name" class="form-control" placeholder="Nome" required="">
+
+								<label for="floatingInput">Nome</label>
+							</div>
+
+							<div class="form-floating">
+								<input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+									placeholder="Email address" required="">
+
+								<label for="floatingInput">Email</label>
+							</div>
+
+							<div class="form-floating">
+								<input ttype="text" id="phone" name="phone" class="form-control" placeholder="Telefone Celular"
+									required="">
+
+								<label for="floatingInput">Celular</label>
+							</div>
+
+							<div class="form-floating">
+								<textarea class="form-control" id="message" name="message"
+									placeholder="Digite sua mensagem aqui"></textarea>
+
+
+								<label for="floatingTextarea">Mensagem</label>
+							</div>
+
+							<button type="submit" class="form-control" onclick="whatsapp();">Enviar</button>
+						</form>
+					</div>
+
+					<div class="col-lg-6 col-12">
+						<img src="/images/20230505_125930.jpg" class="img-fluid contact-image mt-sm-3" alt="">
+
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="container">
+						<p class="mb-4 mt-4 text-center">Se preferir, você pode nos ligar: <a href="tel:+5511996854539">(11) 996854539</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<h4 class="mb-4 mt-2 text-center">Ou fale conosco através de nossas redes sociais:</h4>
+					<ul class="social-icon mt-3 mb-4 d-flex justify-content-center align-items-center">
+						<li class="social-icon-item">
+							<a href="https://www.instagram.com/cantandoestorias/" target="_blank"
+								class="social-icon-link bi-instagram"></a>
+						</li>
+
+						<li class="social-icon-item">
+							<a href="https://www.youtube.com/cantandoestorias" target="_blank"
+								class="social-icon-link bi-youtube"></a>
+						</li>
+
+						<li class="social-icon-item">
+							<a href="https://wa.me/5511996854539" class="social-icon-link bi-whatsapp"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 me-auto mb-5 mb-lg-0">
+					<p class="copyright-text small-text text-center">Copyright © 2023 Cantando Estórias</p>
+				</div>
+			</div>
+		</div>
+
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#81B29A" fill-opacity="1"
+				d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+			</path>
+		</svg>
+	</footer>
+
+
+	<!-- JAVASCRIPT FILES -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+	<script src="js/click-scroll.js"></script>
+	<script src="js/animated-headline.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="js/custom.js"></script>
+
 </body>
+
 </html>
